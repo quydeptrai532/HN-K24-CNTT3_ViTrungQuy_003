@@ -21,45 +21,44 @@ public class BookmanagementApplication {
         return args -> {
             if (bookRepository.count() == 0) {
                 Book book1 = new Book();
-                book1.setTitle("Thế Giới Của Những Chú Chip Thông Minh");
-                book1.setAuthor("John Smith");
+                book1.setTitle("Đắc tâm nhân");
+                book1.setAuthor("Quydz");
                 book1.setDate(LocalDate.of(2020, 5, 15));
                 Book book2 = new Book();
-                book2.setTitle("Java Programming - Hướng Dẫn Toàn Diện");
-                book2.setAuthor("James Gosling");
+                book2.setTitle("HihiHaha");
+                book2.setAuthor("Quydz2");
                 book2.setDate(LocalDate.of(2019, 3, 20));
-
                 Book book3 = new Book();
-                book3.setTitle("Spring Framework Mastery");
-                book3.setAuthor("Rod Johnson");
+                book3.setTitle("Truyện ma 3 giờ sáng");
+                book3.setAuthor("Quydz3");
                 book3.setDate(LocalDate.of(2021, 7, 10));
                 Book book4 = new Book();
-                book4.setTitle("Lập Trình Web Hiện Đại");
-                book4.setAuthor("Nguyễn Hữu Vinh");
+                book4.setTitle("Những cuộc phưu lưu của cá xấu");
+                book4.setAuthor("Quydz4");
                 book4.setDate(LocalDate.of(2022, 1, 5));
                 Book book5 = new Book();
-                book5.setTitle("Clean Code - Mã Sạch");
-                book5.setAuthor("Robert Martin");
+                book5.setTitle("JAVA-WEB-APPLICATION");
+                book5.setAuthor("Quydz5");
                 book5.setDate(LocalDate.of(2018, 11, 30));
                 Book book6 = new Book();
-                book6.setTitle("Design Patterns in Java");
-                book6.setAuthor("Gang of Four");
+                book6.setTitle("HUHUHEHE");
+                book6.setAuthor("Quydz6");
                 book6.setDate(LocalDate.of(2017, 9, 12));
                 Book book7 = new Book();
-                book7.setTitle("Hiệu Suất Ứng Dụng Java");
-                book7.setAuthor("Scott Oaks");
+                book7.setTitle("ALABATRAP");
+                book7.setAuthor("Quydz7");
                 book7.setDate(LocalDate.of(2020, 6, 25));
                 Book book8 = new Book();
-                book8.setTitle("RESTful Web Services");
-                book8.setAuthor("Leonard Richardson");
+                book8.setTitle("PRESS F TO PRAY");
+                book8.setAuthor("Quydz8");
                 book8.setDate(LocalDate.of(2019, 8, 14));
                 Book book9 = new Book();
-                book9.setTitle("Microservices Architecture");
-                book9.setAuthor("Sam Newman");
+                book9.setTitle("HOLY COW");
+                book9.setAuthor("Quydz9");
                 book9.setDate(LocalDate.of(2021, 2, 18));
                 Book book10 = new Book();
-                book10.setTitle("Database Design Fundamentals");
-                book10.setAuthor("Lê Minh Tuấn");
+                book10.setTitle("MY SECRET GAY BOY FRIEND");
+                book10.setAuthor("Quydz10");
                 book10.setDate(LocalDate.of(2022, 4, 8));
                 bookRepository.save(book1);
                 bookRepository.save(book2);
@@ -71,7 +70,6 @@ public class BookmanagementApplication {
                 bookRepository.save(book8);
                 bookRepository.save(book9);
                 bookRepository.save(book10);
-                System.out.println("✓ Đã thêm 10 cuốn sách vào database");
             }
         };
     }
